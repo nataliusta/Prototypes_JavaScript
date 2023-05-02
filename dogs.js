@@ -26,6 +26,10 @@ let fido = new Dog('Fido', 'Mixed', 38); // create new objects using operator Ne
 let fluffy = new Dog('Fluffy', 'Poodle', 30);
 let spot = new Dog('Spot', 'Chihuahua', 10);
 
+spot.bark = function() { // special method for spot
+    console.log(this.name + ' says Woof!');
+};
+
 fido.bark(); // calling objects methods
 fido.run();
 
