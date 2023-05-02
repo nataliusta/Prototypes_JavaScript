@@ -22,6 +22,11 @@ Dog.prototype.wag = function() {
     console.log('Wag!');
 };
 
+let fido = new Dog('Fido', 'Mixed', 38); // create new objects using operator New + constructor 
+let fluffy = new Dog('Fluffy', 'Poodle', 30);
+let spot = new Dog('Spot', 'Chihuahua', 10);
 
+fido.bark(); // calling objects methods
+fido.run();
 
 
