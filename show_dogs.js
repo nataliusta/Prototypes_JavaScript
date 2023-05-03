@@ -50,3 +50,8 @@ ShowDog.prototype.groom = function() { // ...
 };
 
 let scotty = new ShowDog('Scotty', 'Dcottish Terrier', 15, 'Cookie'); // new object
+
+/*scotty.stack();
+scotty.bark();
+console.log(scotty.league);
+console.log(scotty.species);*/ // test
