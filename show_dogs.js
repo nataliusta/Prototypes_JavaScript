@@ -1,3 +1,27 @@
+function Dog(name, breed, weight) { // constructor Dog
+    this.name = name;
+    this.breed = breed;
+    this.weight = weight;
+}
+
+Dog.prototype.species = 'Canine';
+
+Dog.prototype.bark = function() {
+    if (this.weght > 25) {
+        console.log(this.name + ' says Woof!');
+    } else {
+        console.log(this.name + ' says Yip!');
+    }
+};
+
+Dog.prototype.run = function() {
+    console.log('Run!');
+};
+
+Dog.prototype.wag = function() {
+    console.log('Wag!');
+};
+
 function ShowDog(name, breed, weight, handler) { // constructor ShowDog
     this.name = name;
     this.breed = breed;

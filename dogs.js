@@ -1,4 +1,4 @@
-function Dog(name, breed, weight) { // Dog constructor
+function Dog(name, breed, weight) { // constructor Dog
     this.name = name;
     this.breed = breed;
     this.weight = weight;
