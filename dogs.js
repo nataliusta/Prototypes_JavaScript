@@ -22,8 +22,15 @@ Dog.prototype.wag = function() {
     console.log('Wag!');
 };
 
+Dog.prototype.sitting = false;
+
 Dog.prototype.sit = function() {
-    consolelog(this.name + ' is sitting now');
+    if (this.sitting) {
+        console.log(this.name + ' is sitting now');
+    } else {
+        this.sitting = true;
+        console.log(this.name + ' is now sitting');
+    }
 };
 
 let fido = new Dog('Fido', 'Mixed', 38); // create new objects using operator New + constructor 
