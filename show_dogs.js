@@ -23,9 +23,7 @@ Dog.prototype.wag = function() {
 };
 
 function ShowDog(name, breed, weight, handler) { // constructor ShowDog
-    this.name = name;
-    this.breed = breed;
-    this.weight = weight;
+    Dog.call(this, name, breed, weight);
     this.handler = handler;
 }
 
