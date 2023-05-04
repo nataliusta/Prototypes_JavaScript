@@ -30,6 +30,7 @@ function ShowDog(name, breed, weight, handler) { // constructor ShowDog
 }
 
 ShowDog.prototype = new Dog(); // prototype ShowDog
+ShowDog.prototype.constructor = ShowDog; // specify constructor for ShowDog objects
 
 ShowDog.prototype.league = 'Webville'; // prototype's property
 
