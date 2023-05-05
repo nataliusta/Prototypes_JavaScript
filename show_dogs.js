@@ -32,7 +32,7 @@ ShowDog.prototype.constructor = ShowDog; // specify constructor for ShowDog obje
 ShowDog.prototype.league = 'Webville'; // prototype's property
 
 ShowDog.prototype.stack = function() { // prototype's method
-    console.log('Stack');
+    console.log('');
 };
 
 ShowDog.prototype.bait = function() { // ...
